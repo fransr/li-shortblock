@@ -27,7 +27,8 @@ function xx_block(e){
 function xx_insertAfter(n,t) { var p=t.parentNode; if(p.lastChild==t) {p.appendChild(n)}else{p.insertBefore(n,t.nextSibling)}};
 function xx_addblockitem(e){
  if(e.dataset.entityHovercardId.match(':fs_miniCompany:')) return;
- if(e.parentNode.dataset.controlName=='update_topbar_actor') return;
+ var ctrlName=e.parentNode.dataset.controlName
+ if(ctrlName=='update_topbar_actor'||ctrlName=='actor_picture') return;
  x=document.createElement('span');
  x.innerText=' ';
  y=document.createElement('a');
