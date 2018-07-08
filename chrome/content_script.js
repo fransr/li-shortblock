@@ -15,7 +15,6 @@ function xx_block(e){
     mp=e.title.attributes.find(function(e){return !!e.miniProfile});
     if(!mp) return false;
     id=mp.miniProfile.objectUrn.split(':').pop()
-    console.log(id)
     fetch('/psettings/member-blocking/block?memberId='+id+'&trk=block-profile&csrfToken='+csrf,{method:'post',credentials:'same-origin'})
     .then(function(e){return e.json()})
     .then(function(e){
