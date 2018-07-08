@@ -1,8 +1,8 @@
 # li-shortblock
 
-Written by [Frans Rosén](http://twitter.com/fransrosen) after a idea from [Piotr Zaleski](https://www.linkedin.com/feed/update/urn:li:activity:6421718299293417472/).
+Written by [Frans Rosén](http://twitter.com/fransrosen) after an idea by [Piotr Zaleski](https://www.linkedin.com/feed/update/urn:li:activity:6421718299293417472/).
 
-Adds a shortcut to linkedin-feed to block users. Uses https://github.com/rafaelw/mutation-summary to quickly find mutations of the DOM.
+Adds a shortcut to linkedin-feed to block users. Uses https://github.com/rafaelw/mutation-summary to quickly find mutations in the DOM.
 
 All users in the feed should get a Block-link added next to the name:
 
