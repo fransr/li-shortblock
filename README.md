@@ -6,15 +6,15 @@ Adds a shortcut to linkedin-feed to block users. Uses https://github.com/rafaelw
 
 All users in the feed should get a Block-link added next to the name:
 
-<img src="examples/example1.png" />
+<img src="examples/example1.png" width="400" />
 
 A confirm will show up and ask if you really want to block the user:
 
-<img src="examples/example2.png" />
+<img src="examples/example2.png" width="400" />
 
 And will confirm if the block went well:
 
-<img src="examples/example3.png" />
+<img src="examples/example3.png" width="400" />
 
 Page will then reload and hopefully the posts should be gone from the user you blocked.
 
