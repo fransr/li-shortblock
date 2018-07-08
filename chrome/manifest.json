@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "li-shortblock",
+  "description": "Shortcut in linkedin-feed to block users",
+  "version": "0.0",
+  "content_scripts": [
+    {
+      "matches": ["http://*.linkedin.com/*","https://*.linkedin.com/*"],
+      "js": [
+        "mutation_summary.js", "content_script.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "permissions": [
+    "http://*.linkedin.com/",
+    "https://*.linkedin.com/"
+  ]
+}
